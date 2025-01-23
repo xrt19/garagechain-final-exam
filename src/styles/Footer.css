@@ -1,0 +1,10 @@
+.app-footer {
+    background-color: #EAEBF1; /* Footer background color */
+    color: black; /* Footer text color */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  

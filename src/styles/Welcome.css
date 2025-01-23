@@ -1,0 +1,67 @@
+.welcome-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.connect-wallet-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* Atur tinggi container tombol */
+}
+
+.connect-wallet-btn {
+  padding: 10px 20px;
+  background-color: #344BE5;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.connect-wallet-btn:hover {
+  background-color: #357ABD;
+}
+
+.metamask-logo {
+  width: 30px;
+  height: 30px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.logout-btn {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #790813;
+  /* Warna merah */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+  /* Warna merah gelap saat hover */
+}
+
+.connect-wallet-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* Jarak antara tombol Connect Wallet dan Log Out */
+}

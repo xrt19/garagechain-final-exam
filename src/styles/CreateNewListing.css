@@ -1,0 +1,53 @@
+.create-new-listing {
+  padding: 20px;
+}
+
+.listing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 18px;
+  color: whitesmoke;
+  margin-bottom: 5px;
+}
+
+.image-preview {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  max-height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  background-color: #4A90E2;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #357ABD;
+}
+
+.form-group input {
+  font-size: 16px;
+  padding: 10px;
+  background-color: rgb(209, 207, 207);
+}
